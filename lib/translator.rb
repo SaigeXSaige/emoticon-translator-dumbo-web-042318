@@ -25,9 +25,8 @@ def get_japanese_emoticon(file, emoticon)
      binding.pry
       if key == emoticon
         return value
-      else
-        return "Sorry, that emoticon was not found"
       end
+      
   end
   #binding.pry
 end
