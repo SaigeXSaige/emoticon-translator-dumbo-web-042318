@@ -25,6 +25,7 @@ def get_japanese_emoticon(file, emoticon)
      #binding.pry
       if key == emoticon
         return value
+      elsif 
       #binding.pry  
       end
       
