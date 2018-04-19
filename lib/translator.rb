@@ -22,11 +22,13 @@ def get_japanese_emoticon(file, emoticon)
   new_hash = load_library(file)
 
   new_hash['get_emoticon'].each do |key, value|
-    if new_hash['get_emoticon'].keys.include?(emoticon) || key == emoticon
-      return value
+    if new_hash['get_emoticon'].keys.include?(emoticon)
+      if key == emoticon
+        return value
+      end
     else 
-      return "Sorry, that emoticon was not found"
-    end
+      
+      
   end
   
 end
