@@ -36,10 +36,5 @@ def get_english_meaning(file, emoticon)
   emoticons = load_library(file)
   
     new_hash = load_library(file)
-  
-  if new_hash["get_meaning"] == emoticon
-    return new_hash["get_meaning"][emoticon]
-  else
-    return "Sorry, that emoticon is not known"
-  end
+
 end
