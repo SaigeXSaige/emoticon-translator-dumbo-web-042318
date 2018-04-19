@@ -22,7 +22,7 @@ def get_japanese_emoticon(file, emoticon)
   new_hash = load_library(file)
 
   new_hash['get_emoticon'].each do |key, value|
-     binding.pry
+     #binding.pry
       if key == emoticon
         return value
       end
